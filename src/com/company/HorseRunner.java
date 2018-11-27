@@ -3,9 +3,9 @@ package com.company;
 public class HorseRunner {
 
     public static void main(String[] args) {
-        Horse horse1 = new Mustang("Secretariat", 12000);
-        Horse horse2 = new Mustang("Dusty Trail", 22000);
-        Horse horse3 = new Mustang("Silver", 12000);
+        Horse horse1 = new Mustang("Trigger", 1340);
+        Horse horse2 = new Mustang("Silver", 1210);
+        Horse horse3 = new Mustang("Patches", 1410);
 
         Horse[] horses = new Horse[6];
 
@@ -20,6 +20,6 @@ public class HorseRunner {
         barn.consolidate();
 
         System.out.println(barn);
-        System.out.println(" Dusty Trail is now in space: " + barn.findHorseSpace("Dusty Trail"));
+        System.out.println(" Silver is now in space: " + barn.findHorseSpace("Silver"));
     }
 }
